@@ -1,0 +1,28 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "Game",
+  "main": "source.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgatZan/2048.git"
+  },
+  "keywords": [
+    "game",
+    "2048"
+  ],
+  "author": "az",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgatZan/2048/issues"
+  },
+  "homepage": "https://github.com/AgatZan/2048#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0"
+  }
+}
