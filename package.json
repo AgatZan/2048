@@ -4,7 +4,8 @@
   "description": "Game",
   "main": "source.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
@@ -19,10 +20,11 @@
   "bugs": {
     "url": "https://github.com/AgatZan/2048/issues"
   },
-  "homepage": "https://github.com/AgatZan/2048#readme",
+  "homepage": "https://github.com/AgatZan/2048",
   "devDependencies": {
     "@eslint/js": "^9.7.0",
     "eslint": "^9.7.0",
+    "gh-pages": "^6.1.1",
     "globals": "^15.8.0"
   }
 }
