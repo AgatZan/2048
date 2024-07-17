@@ -19,6 +19,8 @@ jobs:
         run: npm run lint
       - name: Testing
         run: npm run test
+      - name: Deploy
+        run: npm run deploy
 
   on-failure:
     permissions: write-all
